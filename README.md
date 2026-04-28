@@ -16,23 +16,15 @@ This project allows users to upload PDF documents and ask questions based on doc
 - Free API integration (Groq)
 
 🏗️ Architecture
-User Upload PDF
-      ↓
-Text Extraction
-      ↓
-Text Chunking
-      ↓
-Embedding Generation
-      ↓
-FAISS Vector Storage
-      ↓
-Question Query
-      ↓
-Similarity Search
-      ↓
-LLM Response Generation
-      ↓
-Answer + Citations
+User Upload PDF -> 
+Text Extraction -> 
+Text Chunking -> 
+Embedding Generation -> 
+FAISS Vector Storage -> 
+Question Query -> 
+Similarity Search -> 
+LLM Response Generation -> 
+Answer + Citations -> 
 
 🛠 Tech Stack
 Backend:
